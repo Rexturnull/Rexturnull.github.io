@@ -1,0 +1,3 @@
+[submodule "themes/makabaka"]
+	path = themes/makabaka
+	url = https://github.com/Rexturnull/hugo-theme-makabaka.git

@@ -1,0 +1,49 @@
+baseURL = 'https://rexturnull.github.io/'
+locale = 'zh-TW'
+title = 'MaKaBaKa'
+theme = 'makabaka'
+
+[taxonomies]
+    category = "categories"
+    tag = "tags"
+
+[markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+
+[params]
+    # 設定首頁只呈現 posts 資料夾底下的文章，不呈現其他雜七雜八的頁面
+    mainSections = ["posts"]
+    description = "工程師的數位花園"
+
+[params.author]
+    name = "MaKaBaKa"
+    title = "Software Engineer"
+    bio = "Go for it, because missing an opportunity hurts much more than rejection."
+    avatar = "/img/avatar.svg"
+    resume = "/files/resume.pdf"
+
+[params.social]
+    github = "https://github.com/MaKaBaKa"
+    email = "you@example.com"
+    linkedin = "https://www.linkedin.com/in/your-handle"
+    twitter = "https://x.com/your-handle"
+
+# 左側邊欄導覽選單（英文介面）
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
+[[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 20
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 30
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 40
+
