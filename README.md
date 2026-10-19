@@ -72,7 +72,7 @@ Save the file and the sidebar updates automatically.
 Create a new folder under `content/posts/` with an `index.md` inside:
 
 ```
-content/posts/tech/my-new-post/index.md
+content/posts/my-new-post/index.md
 ```
 
 `index.md` needs this front matter at the top:
@@ -89,7 +89,7 @@ summary = "A one-line summary of what this post is about"
 Write your content here (Markdown supported).
 ```
 
-- The post's cover image and any images used in the body go in the **same folder** as `index.md` (e.g. `content/posts/tech/my-new-post/cover.svg`). Reference body images with `![alt text](filename.png)` — no need to worry about the path.
+- The post's cover image and any images used in the body go in the **same folder** as `index.md` (e.g. `content/posts/my-new-post/cover.svg`). Reference body images with `![alt text](filename.png)` — no need to worry about the path.
 - Hierarchy/categorization comes from the **folder structure** itself: posts in the same folder are grouped together, and subfolders become subcategories (browsable as a tree under the "By Topic" tab on the Posts page).
 
 ## Tagging posts

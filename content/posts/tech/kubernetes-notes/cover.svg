@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360">
-  <rect width="640" height="360" fill="#36454f"/>
-  <text x="50%" y="50%" font-family="Helvetica, Arial, sans-serif" font-size="28"
-        fill="#ffffff" text-anchor="middle" dominant-baseline="middle">Kubernetes Notes</text>
-</svg>
