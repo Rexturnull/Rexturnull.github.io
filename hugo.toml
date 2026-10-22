@@ -8,6 +8,9 @@ titleCaseStyle = 'none'
     category = "categories"
     tag = "tags"
 
+[services.googleAnalytics]
+    id = "G-5R7DRC4P1Q"
+
 [markup.tableOfContents]
     startLevel = 1
     endLevel = 4
@@ -17,10 +20,17 @@ titleCaseStyle = 'none'
 
 [params]
     mainSections = ["posts"]
-    description = "工程師的數位花園"
+    description = "Rexturnull's Blog"
+
+[params.giscus]
+    repo = "Rexturnull/Rexturnull.github.io"
+    repoId = "R_kgDOU2kaCA"
+    category = "General"
+    categoryId = "DIC_kwDOU2kaCM4DJTUo"
+    lang = "zh-TW"
 
 [params.author]
-    name = "Rex"
+    name = "Rexturnull"
     title = "Laid-back Engineer"
     bio = "Go for it, because missing an opportunity hurts much more than rejection."
     avatar = "/img/cover.jpg"
